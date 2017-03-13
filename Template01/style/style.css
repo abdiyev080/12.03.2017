@@ -108,24 +108,24 @@ body{
     font-size: 26px;
     font-family: 'Roboto', sans-serif;
 }
-#slider .sliderCarousel {
+#slider .slider1 {
 	height: 70px;
 	width: 100%;
 	position: absolute;
 	bottom: 45px;
 }
-#slider .sliderCarousel .row{
+#slider .slider1 .row{
 	width: auto;
 	display: flex;
 	justify-content: center;
 	justify-content: space-between;
 	align-items: center;
 }
-#slider .sliderCarousel .row .col2 li{
+#slider .slider1 .row .col2 li{
 	list-style: none;
 	display: inline-block;
 }
-#slider .sliderCarousel .row .col2 li>a{
+#slider .slider1 .row .col2 li>a{
     width: 70px;
     height: 70px;
     display: block;
@@ -136,7 +136,7 @@ body{
     font-size: 32px;
     color: #333;
 }
-#slider .sliderCarousel .row .col4>ul>li{
+#slider .slider1 .row .col4>ul>li{
 	list-style: none;
 	display: inline-block;
 	overflow: hidden;
@@ -150,10 +150,10 @@ body{
     box-shadow: 3px 3px 3px rgba(0,0,0,0.15);
 
 }
-#slider .sliderCarousel .row .col4>ul>li img{
+#slider .slider1 .row .col4>ul>li img{
 	height: 100%;
 }
-#slider .sliderCarousel .row .col2:last-child{
+#slider .slider1 .row .col2:last-child{
 	font-family: 'Roboto', sans-serif;
 	width: 170px;
     padding: 20px 30px 24px;
@@ -167,14 +167,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-#slider .sliderCarousel .row .col2:last-child a{
+#slider .slider1 .row .col2:last-child a{
 	text-decoration: none;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: #333;
 }
-#slider .sliderCarousel .row .col2:last-child a>i{
+#slider .slider1.row .col2:last-child a>i{
 	font-weight: 900;
 	font-size: 28px;
 	margin-left: 20px;
@@ -359,5 +359,8 @@ display: block;
     padding: 24px 27px 22px;
     border: 0.8px solid black;
     margin-left: 13px;
+}
+@media only screen and (max-width: 960px){
+
 }
 		
